@@ -1,0 +1,22 @@
+---
+projects:
+  # for different projects
+  jiangziya:
+    co:
+      - undef: "undef"
+    eu:
+      - cloud_end_point: "https://apinastg.telenav.com"
+        undef: "undef"
+    na:
+      - cloud_end_point: "https://nioeustg.telenav.com"
+  wukong:
+    co:
+      - undef: "undef"
+    sea:
+      - name: undef
+
+settings:
+  user_id: AndroidQATest
+  api_key: f98eadad-cca7-4a55-b2b5-d6dc930e8bc1
+  api_secret: 1daf6254-1f88-4b8d-8539-308a60e2d181
+  map_data_path: "/sdcard/TelenavMapData"
