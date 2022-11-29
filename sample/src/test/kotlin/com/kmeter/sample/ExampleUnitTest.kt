@@ -1,9 +1,8 @@
-package com.example.kotlintest
+package com.kmeter.sample
 
 import main.java.com.example.kmeter.HybridClientConfig
-import org.junit.Test
-
-import org.junit.Assert.*
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -11,17 +10,20 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
+
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
 
-    @Test fun testPropertyReference() {
+    @Test
+    fun testPropertyReference() {
         val strs = listOf<String>("a", "bc", "def")
         println(strs.map(String::length))
     }
 
-    @Test fun testSequenceYield() {
+    @Test
+    fun testSequenceYield() {
         val oddNumbers = sequence { yield(1)
             yieldAll(listOf(3, 5))
             yieldAll(generateSequence(7) { it + 2 }) }

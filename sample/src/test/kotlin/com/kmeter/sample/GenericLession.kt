@@ -1,6 +1,6 @@
-package com.telenav.sdk_automation
+package com.kmeter.sample
 
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 class MutableStack<E> (vararg items: E) {
     private  val elements = items.toMutableList()

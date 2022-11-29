@@ -1,6 +1,6 @@
-package com.telenav.sdk_automation
+package com.kmeter.sample
 
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 open class Tiger(val origin: String) {
     fun sayHello() {

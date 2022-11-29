@@ -1,4 +1,4 @@
-package com.telenav.sdk_automation
+package com.kmeter.sample
 
 import java.lang.Exception
 

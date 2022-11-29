@@ -1,6 +1,6 @@
-package test.java.com.example.kotlintest
+package com.kmeter.coroutines
 
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 class ArrayTest {
 
